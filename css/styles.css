@@ -1,3 +1,4 @@
+@import "./normalize.css";
 :root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
@@ -868,4 +869,9 @@ a {
   .footer__heading {
     font-size: 1.6rem;
   }
+}
+
+/* Sign-up Callout */
+.callout-signup {
+  transform: translateY(5rem);
 }
